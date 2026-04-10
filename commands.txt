@@ -1,0 +1,5 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install -r ./requirements.txt
+ollama pull <main-model name><eg: llama3.2>
+ollama pull <Embeding model><eg: mxbai-embed-large>
